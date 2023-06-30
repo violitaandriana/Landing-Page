@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+#title {
+    background-color: #1F2937;
+    color: white;
+
+}
+
+.container-navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+}
+
+.header-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+.logo-img span {
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+}
