@@ -1,37 +1,116 @@
-* {
+html, body {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 #title {
     background-color: #1F2937;
     color: white;
-
 }
 
 .container-navbar {
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar {
-    display: flex;
     margin: auto;
-    width: 80%;
-    justify-content: space-between;
-    padding: 20px 0px;
-
-}
-
-.header-links {
+    margin-left: 5%;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
-    width: 50%;
-    justify-content: space-around;
-
+    justify-content: flex-end;
 }
 
-.logo-img span {
-    font-size: 20px;
-    font-weight: bold;
-    width: 50%;
+.container-navbar .logo {
+    font-weight: bolder;
+    margin-right: auto; /* automatically fill in any empty space to the right of it. */
+}
+
+.container-navbar .links a{
+    text-decoration: none !important;
+    padding: 0 20px;
+    margin-left: -5%;
+    color: #e5e7eb;
+}
+
+.container-title {
+    margin-top: 1%;
+    margin-left: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container-title .item.text {
+    flex: 2;
+    margin-bottom: 8%;
+}
+
+.container-title .item.img {
+    flex: 1;
+    background-color: #adadad;
+    margin-right: 5%;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+
+.btn-sign-up {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+}
+
+.container-information {
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    text-align: center;
+}
+
+.container-information .img-box {
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 12%;
+    height: 12%;
+}
+
+.container-quote {
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 22px;
+    display: flex;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.container-quote .quote {
+    margin: 5% 20% 0% 20%;
+    text-align: left;
+}
+
+.container-quote .author {
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right !important;
+}
+
+.container-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1F2937;
+    color: white;
 }
